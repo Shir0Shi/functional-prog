@@ -15,6 +15,6 @@ export class MainPageComponent {
   yearOfStudy: number = 2023;
   professor: string = 'Tetiana Kovalur';
   labProfessor: string = 'Anastasiia Nikolaienko';
-  myPhoto = "assets/myPhoto.jpeg";
+  myPhoto = 'assets/myPhoto.jpeg';
 
 }
