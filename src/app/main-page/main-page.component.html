@@ -1,0 +1,14 @@
+<div class="report" style="text-align: center;">
+    <h1>{{ universityName }}</h1>
+    <h2>{{ faculty }}</h2>
+    <h2>{{ department }}</h2>
+    <h2>Author: {{ myName }}</h2>
+    <img class="my-photo" *ngIf="myPhoto" [src]="myPhoto" alt="Sofiia Yeremenko Photo" >
+    <p>Group: {{ myGroup }}</p>
+    <p>Course: {{ course }}</p>
+    <p>Year of Study: {{ yearOfStudy }}</p>
+    <p>Professor: {{ professor }}</p>
+    <p>Lab Professor: {{ labProfessor }}</p>
+    <app-lab-links></app-lab-links>
+  </div>
+  

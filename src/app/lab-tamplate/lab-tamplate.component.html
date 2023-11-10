@@ -1,0 +1,33 @@
+<div class="lab-container white-space: pre-line;">
+    <h1 class="text-center">{{ labTitle }}</h1>
+    <h2 class="text-center">{{ titlePage }}</h2>
+    <p>{{ meta }}</p>
+  
+    <h3>Умова завдання</h3>
+    <pre class="base-text">{{ taskCondition }}</pre>
+  
+    <h3>Задачі</h3>
+    <ul>
+      <li *ngFor="let task of tasks">{{ task }}</li>
+    </ul>
+  
+    <h3>Рішення для IDE</h3>
+    <p>{{ decisionForIDE }}</p>
+  
+    <h3>Код</h3>
+    <div *ngFor="let code of codes">
+      <pre>{{ code }}</pre>
+    </div>
+  
+    <h3>Результат</h3>
+    <ul class="list-inline">
+      <li *ngFor="let resultItem of result">
+        <img class="img-fluid" [src]="resultItem" alt="Result Image">
+      </li>
+    </ul>
+  
+    <h3>Висновок</h3>
+    <pre class="base-text">{{ summary }}</pre>
+    <button class="btn-go-back" (click)="goToHomePage()">Go Back to Home</button>
+  </div>
+  

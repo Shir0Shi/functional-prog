@@ -1,0 +1,70 @@
+.my-photo{
+    width: 200px;
+    height: auto;
+    display: block; 
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.report {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .my-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .lab-links {
+    margin-top: 20px;
+  }
+  
+  .lab-links h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .lab-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lab-links li {
+    margin: 10px 0;
+  }
+  
+  .lab-links a {
+    text-decoration: none;
+    color: #007AFF; /* Apple blue color */
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .lab-links a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+  

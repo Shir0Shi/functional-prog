@@ -1,0 +1,52 @@
+.lab-links {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .lab-links h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .lab-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lab-links li {
+    margin: 15px 0;
+  }
+  
+  .lab-links a {
+    text-decoration: none;
+    color: #dc992e;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #dc992e;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .lab-links a:hover {
+    background-color: #dc992e;
+    color: #fff;
+  }
+  
+  .lab-links a {
+    text-decoration: none;
+    color: #000000; /* Change the color to black */
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000000; /* Change the border color to black */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .lab-links a:hover {
+    background-color: #dc992e;
+    border: 1px solid #dc992e; /* Change the background color to black */
+    color: #fff; /* Change the text color to white on hover */
+  }
