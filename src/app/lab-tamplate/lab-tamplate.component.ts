@@ -48,7 +48,8 @@ export class LabTamplateComponent implements OnInit {
       // this.result[0] = 'D:\\mosha\\7semester\\ФП\\fp-labs\\functional-prog\\src\\assets\\lab1\\1.png';
       // this.result[1] = 'D:\\mosha\\7semester\\ФП\\fp-labs\\functional-prog\\src\\assets\\lab1\\2.png';
       this.result[0] = 'assets/lab'+labNumber+'/1.png';
-      this.result[1] = 'assets/lab'+labNumber+'/2.png';
+      if(labNumber && +labNumber < 8)
+        this.result[1] = 'assets/lab'+labNumber+'/2.png';
 
     });
   }
